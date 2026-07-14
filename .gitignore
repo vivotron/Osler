@@ -1,0 +1,24 @@
+#virtual environment
+.venv/
+
+#python bytecode cache
+__pycache__/
+*.pyc
+
+#environment variables - contains API keys
+.env
+
+#AWS credentials - never commit your AWS credentials
+.aws/
+*.csv
+credentials
+
+#artifacts written by ingestion script
+manifest_*.json
+
+#editor/ IDE files
+.idea/
+.vscode/
+
+#macOS metadata files
+.DS_Store
